@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Prezeent</title>
+  <link rel="icon" type="image/png" href="tree.png">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="snow"></div>
+
+<nav>
+  <span class="logo">🎄</span>
+  <ul>
+    <li><a href="#" onclick="showSection('home')">Strona główna</a></li>
+    <li><a href="#" onclick="showSection('gallery')">Galeria</a></li>
+    <li><a href="#" onclick="showSection('bingo')">Bingo 2026</a></li>
+
+  </ul>
+</nav>
+
+<section id="home" class="page active">
+  <div class="split">
+    <div class="intro">
+      <h1>Wesołych Świąt!!!</h1>
+      <p class="intro-text">
+        Jako iż jednak jestem tym programistą, a przez to, że byłem chory to siedziałem w domu i miałem trochę czasu
+        to uznałem, że wykorzystam moje umiejętności i zrobię ci ładną stronkę z życzeniami i galerią zdjęć do której będę mógł dodawać nasze wspólne zdjęcia!
+        Mam nadzieję, że ci się spodoba!
+
+        <br><br>
+        (Przy okazji mogę inne rzeczy dodać do tej strony jak masz jakieś życzenia)
+      </p>
+    </div>
+
+    <div class="letter-wrapper">
+      <div class="letter">
+        <h2>Mój list do Ciebie</h2>
+        <p>
+          Przystojniaku, <br><br>
+          Jako iż dostaniesz ode mnie również list pisemny, w którym na pewno dużo bardziej popiszę się
+          moimi lirycznymi umiejętnościami, to w tym liścię ograniczę się do złożenia życzeń.
+          A więc chciałbym Ci z głebi mojego serduszka życzyć wspaniałego roku 2026 (Bo święta już za nami),
+          żebyś nie umarła przez idiotę, żeby pani Julka nie robiła Ci w tym roku niepotrzebnych dram,
+          żeby żaden Staś sraś i inny Max nie zawracał Ci dupy żebyś nie musiała się z nimi użerać,
+          żebyś widziała się jak najczęściej z Miriam oraz żebyś zdała wszystkie przedmioty na 6
+          (Z pomocą mojej babci). Na pewno też życzę Ci cierpliwości do Marty i innych członków twojej rodzinki
+          bo nie ma co przez nich psuć sobie humoru oraz życzę nam super spędzonego roku!
+          <br><br>
+          Pozdrawiam z buziakami!
+          <br><br>
+          ~Twoja Ślicznotka
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery" class="page">
+  <h2 class="gallery-title">Myyyyyy!!!!</h2>
+  <div id="gallery-grid"></div>
+  <div id="gallery-ending">Miejsce na nowe wspomnienia :>></div>
+</section>
+<section id="bingo" class="page">
+  <h2 class="gallery-title">Bingo 2026!!!!</h2>
+  <div id="bingo-grid-container">
+    <div id="bingo-grid"></div>
+  </div>
+  <input id="invisButton" type="button" value="" onclick="getBingo()">
+</section>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
