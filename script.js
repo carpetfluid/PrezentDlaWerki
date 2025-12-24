@@ -54,7 +54,7 @@ const bingoData = [
   {"text":"", "marked":false},
   {"text":"", "marked":false},
   {"text":"", "marked":false},
-  {"text":"", "marked":false}
+  {"text":"", "marked":true}
 ];
 
 
