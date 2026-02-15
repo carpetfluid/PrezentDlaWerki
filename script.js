@@ -3,7 +3,7 @@ function showSection(id) {
   document.getElementById(id).classList.add('active');
 }
 
-const n = 29; // liczba zdjęć
+const n = 58; // liczba zdjęć
 const images = [];
 
 for (let i = 1; i <= n; i++) {
